@@ -1,0 +1,21 @@
+#page .page_tags{display:inline-block;height:16px;font-size:11px;color:#666;vertical-align:top;padding:0 15px 0 32px;line-height:16px;background:url(icoSet.gif) no-repeat 0 -58px; }
+#page .page_tags a{text-decoration:none;color:#666}
+
+#page .page_sns{display:inline;margin:0px; padding:0px; list-style:none;vertical-align:top;}
+#page .page_sns li{display:inline;vertical-align:top; }
+#page .page_sns a{display:inline-block;height:16px;line-height:16px}
+#page .page_sns .link a{width:16px;height:0;padding:16px 0 0 0;overflow:hidden;background:url(icoSet.gif) no-repeat}
+#page .page_sns .twitter a{background-position:0 -270px}
+#page .page_sns .me2day a{background-position:0 -300px}
+#page .page_sns .facebook a{background-position:0 -330px}
+#page .page_sns .delicious a{background-position:0 -360px}
+
+
+#page .fileList .files {float:left; width:96%; background:#f4f4f4; border:1px solid #ccc; padding:5px; margin-bottom:10px; margin-left:2%; list-style:none;}
+#page .fileList .files li {float:left; padding-right:20px; }
+#page .fileList .files li a {color:#333; letter-spacing:-1px; text-decoration:none;}
+#page .fileList .files li a span.fileSize { font-size:11px; color:#999; padding-left:2px; letter-spacing:0px; }
+
+/*--------------------------------------------------------*/
+
+
