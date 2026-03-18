@@ -1,0 +1,312 @@
+.wrapper {
+  width: min(946px, calc(100% - 24px)) !important;
+}
+
+#footer {
+  width: 100% !important;
+}
+
+.about-prototype-shell {
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Noto Sans KR", sans-serif;
+  color: #355262;
+}
+
+.about-prototype-shell > .side,
+.about-prototype-shell > .content {
+  display: none;
+}
+
+.about-prototype {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 24px;
+  padding: 18px 20px 22px;
+  background: linear-gradient(180deg, rgba(242, 246, 248, 0.98), rgba(231, 236, 240, 0.98));
+  border-left: 1px solid #c6d1d7;
+  border-right: 1px solid #c6d1d7;
+}
+
+.about-prototype * {
+  box-sizing: border-box;
+}
+
+.about-prototype-sidebar,
+.about-prototype-main {
+  min-width: 0;
+}
+
+.about-prototype-sidebar {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.about-prototype-sidebar h2,
+.about-prototype-main-header h2 {
+  margin: 0;
+  color: #355262;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.16;
+}
+
+.about-prototype-groups {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.about-prototype-group-button {
+  width: 100%;
+  padding: 11px 14px 12px;
+  border: 1px solid #ccd5da;
+  border-left: 3px solid transparent;
+  background: linear-gradient(180deg, rgba(233, 238, 241, 0.9), rgba(221, 228, 232, 0.9));
+  color: #355262;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 160ms ease, background-color 160ms ease;
+}
+
+.about-prototype-group-button:hover,
+.about-prototype-group-button:focus-visible,
+.about-prototype-group-button.is-active {
+  border-color: #bcc9d0;
+  border-left-color: #6d8897;
+  background: linear-gradient(180deg, rgba(228, 235, 239, 1), rgba(214, 223, 228, 1));
+  outline: none;
+}
+
+.about-prototype-group-index {
+  display: block;
+  margin-bottom: 4px;
+  color: #8296a2;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.about-prototype-group-title {
+  display: block;
+  color: #355262;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.28;
+}
+
+.about-prototype-main {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.about-prototype-main-header {
+  display: block;
+}
+
+.about-prototype-header-meta {
+  display: block;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccd5da;
+}
+
+.about-prototype-tabs-wrap {
+  overflow: hidden;
+}
+
+.about-prototype-tabs {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 0 0 2px;
+  border-bottom: 1px solid #d0d9de;
+  scrollbar-width: thin;
+}
+
+.about-prototype-tabs::-webkit-scrollbar {
+  height: 6px;
+}
+
+.about-prototype-tabs::-webkit-scrollbar-thumb {
+  background: rgba(109, 136, 151, 0.28);
+}
+
+.about-prototype-tab {
+  flex: 0 0 auto;
+  padding: 0 0 9px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: #6d808b;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.about-prototype-tab:hover,
+.about-prototype-tab:focus-visible,
+.about-prototype-tab.is-active {
+  color: #355262;
+  border-bottom-color: #6d8897;
+  outline: none;
+}
+
+.about-prototype-panel {
+  display: grid;
+  gap: 12px;
+  padding: 14px 16px 16px;
+  border: 1px solid #ccd5da;
+  background: rgba(248, 250, 251, 0.92);
+}
+
+.about-prototype-panel-meta {
+  display: block;
+}
+
+.about-prototype-panel-index {
+  color: #7a909d;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.about-prototype-panel h3 {
+  margin: 0;
+  color: #355262;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.24;
+}
+
+.about-prototype-document {
+  color: #4b5d68;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.about-prototype-document > :first-child {
+  margin-top: 0 !important;
+}
+
+.about-prototype-document p,
+.about-prototype-document div,
+.about-prototype-document li,
+.about-prototype-document span,
+.about-prototype-document font {
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Noto Sans KR", sans-serif !important;
+}
+
+.about-prototype-document img {
+  max-width: 100%;
+  height: auto !important;
+}
+
+.about-prototype-document p {
+  margin: 0 0 14px;
+}
+
+.about-prototype-document ul,
+.about-prototype-document ol {
+  margin: 0 0 14px;
+  padding-left: 20px;
+}
+
+.about-prototype-document table {
+  max-width: 100%;
+}
+
+.about-prototype-document [style*="width: 522px"],
+.about-prototype-document [width="522"] {
+  width: 100% !important;
+}
+
+.about-prototype-document-loading,
+.about-prototype-document-error {
+  margin: 0;
+  color: #607682;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.about-prototype-related {
+  display: grid;
+  gap: 8px;
+  padding-top: 10px;
+  border-top: 1px solid #d8e0e4;
+}
+
+.about-prototype-related-copy {
+  margin: 0;
+  color: #80939e;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.about-prototype-related-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+}
+
+.about-prototype-related-list a {
+  color: #57717e;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.about-prototype-related-list a:hover,
+.about-prototype-related-list a:focus-visible {
+  color: #355262;
+  text-decoration: underline;
+  outline: none;
+}
+
+@media (max-width: 760px) {
+  .about-prototype {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 16px 14px 20px;
+  }
+
+  .about-prototype-sidebar h2,
+  .about-prototype-main-header h2 {
+    font-size: 24px;
+  }
+
+  .about-prototype-group-button {
+    padding: 11px 12px 12px;
+  }
+
+  .about-prototype-group-title {
+    font-size: 17px;
+  }
+
+  .about-prototype-tabs {
+    gap: 14px;
+  }
+
+  .about-prototype-panel {
+    padding: 14px 14px 16px;
+  }
+
+  .about-prototype-panel h3 {
+    font-size: 20px;
+  }
+}
